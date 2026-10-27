@@ -1,0 +1,141 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floresta</title>
+    <style>
+        img{
+            width: 100%;
+            height: 1000px;
+            object-fit: cover;
+        }
+        nav{
+            text-align: center;
+            justify-content: space-between;
+        }
+        h1{
+            
+            color: darkgreen;
+        }
+        h3{
+            text-align: center;
+            font-weight: bold;
+        }
+        .card{
+            font-size: 30px;
+        }
+        a{
+            font-size: 25px;
+            color: white;
+            text-decoration: none;
+            background: darkgreen;
+            padding: 6.5px;
+            display: inline-block;
+            font-weight: bold;
+            border-radius: 15px;
+            transition: 0.5s;
+            margin-right: 30px;
+            
+        }
+        a:hover{ 
+            transform: scale(1.08);
+            background: rgb(63, 180, 63);
+        }
+        hr{
+            border: none;
+            height: 3.04px;
+            width: 100%;
+            background-color: black;
+        }
+        .card-images{
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            background: gray;
+            border-radius: 20px;
+            border: 4px solid black;
+            box-shadow: 0px 4px 10px black;                              
+        }
+        div {
+            text-align: center;
+            margin-top: 50px;
+        }
+        body{
+            transform: scale(1.90);
+        }
+        button{
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <img id="Topo" src="imagens/amazonasmata.jpg" alt="imagem floresta">
+    <hr>
+    <nav>
+        
+        <a href="#Início"> Início </a>
+        <a href="#Rio"> Rio </a>
+        <a href="#Lendas">Lendas</a>
+        <a href="#feedback">feedback</a>
+    </nav>
+    <hr>
+    <nav id="Início">
+        <h1>Amazonas 🌿</h1>
+        <img class="card-images" src="imagens/amazonasmata.jpg" alt="Imagem amazonas">
+        <h3>Descubra um lugar cheio de <u>misterios e segredos</u>...</h3>
+        <a href="imagens/floresta (2).jpg" alt="Amazonas"><u><em>Amazonas</em></u></a>
+    </nav>
+    <hr>
+    <nav id="Rio">
+        <h1><u class="card">Conheça o <em>rio:</em></u> 🏞️</h1>
+        <img class="card-images" src="imagens/rio.jpeg" alt="Rio">
+        <h4>Sabia que tem uma lenda que os peixes desse rio são estranhos?</h4>
+    </nav>
+    <div>
+        <a href="imagens/peixe.jpeg" alt="Imagem rio"><u><em>Rio</em></u></a>
+    </div>
+    <hr>
+    <nav id="Lendas">
+        <h1><u><em>lendas</em></u>: 🌪️</h1>
+        <h3>A lenda do <em><u>Mapinguari</u></em>: o gigante peludo da floresta</h3>
+        <img class="card-images" src="imagens/lenda1.jpg" alt="Imagem lenda">
+        <p>
+        O Mapinguari é uma das figuras mais temidas da mitologia amazônica.<br>
+        Descrito como um gigante peludo com um olho no meio da testa e uma boca no umbigo,<br>
+        o Mapinguari é conhecido por seu rugido aterrorizante que ecoa pelas florestas.
+        <br><br>
+        Diz-se que ele assombra aqueles que se aventuram nas profundezas da selva,<br>
+        sendo um símbolo do poder e do mistério da natureza selvagem.<br>
+        Para muitos moradores da região, a história do Mapinguari é um aviso sobre os perigos<br>
+        de desrespeitar a natureza e a floresta.
+
+        </p>
+    </nav>
+    <hr>
+    <nav id="feedback">
+        <h2>Gostou? Deixe seu feedback</h2>
+        <hr>
+        <form>
+            <label for="nome"> Digite seu nome: </label>
+            <input type="text" id="nome" placeholder="Digite seu nome aqui: ">
+            <br>
+            <hr>
+            <label for="feedback">Digite seu feedback: </label>
+            <input type="text" id="feedback" placeholder="Digite seu feedback">
+            <br>
+            <hr>
+            <label for="email"> Digite seu email: </label>
+            <input type="email" id="email" placeholder="Digite seu email aqui:">
+            <br>
+            <hr>
+            <button type="submit">Enviar</button>
+        </form>  
+    </nav>
+    <nav>
+        <hr>
+        <a href="#Topo">Voltar ao topo</a>
+        <hr>
+    </nav>
+
+</body>
+</html>
