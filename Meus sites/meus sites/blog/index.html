@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>first-blog</title>
+    <link rel="shortcut icon" href="favicon/logo.png" type="image/x-icon">
     <style>
         body{
             margin: 0;
@@ -45,14 +46,14 @@
             margin: auto;
         }
         mark{
-            background-color: gray;
+            background-color: darkgray;
             padding: 5px;
             border-radius: 5px;
             color: white;
         }
         hr{
             border: none;
-            height: 2.5px;
+            height: 3px;
             background-color: gray;
         }
         pre{
@@ -60,6 +61,13 @@
             display: inline-block;
             background-color: white;
             font-size: 20px;
+        }
+        audio{
+            background-color: #333333;
+            color: white;
+            display: inline-block;
+            padding: 10px;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -71,6 +79,9 @@
     <h1 class="subtitulo"> Eu estou muito feliz em te ver por aqui!</h1>
     <hr>
     <img class="card-video" src="gifs/gatinho.gif" alt="Gatinho">
+    <hr>
+    <audio id="Audio" src="musica/musica.mp3" type="audio/mpeg"></audio>
+    <a href="#" onclick="document.getElementById('Audio').play();return false;">Tocar uma <u>música</u></a>
     <hr>
     <h2>Aqui vou mostrar como está sendo minha jornada em programação e <br>alguns projetos que fiz que gosto</h2>
     <hr>
@@ -86,6 +97,14 @@
         </pre>
     </h3>
     <hr>
+    <h1>Como estou criando: </h1>
+    <hr>
+    <h2><mark>Linguagens:</mark>  <br><br> 1. <abbr title="HyperText Markup Language">HTML5</abbr> <br> 2. <abbr title="Cascading Style Sheets">CSS3</abbr></h2>
+    <hr>
+    <h1><mark>Editor de código:</mark> <br><br> 1. <abbr title="O Devin é uma IA desenvolvedora que ajuda a programar, resolver problemas e criar projetos. Seu editor de código permite escrever, editar e executar códigos em um ambiente integrado com recursos de inteligência artificial.">Devin</abbr></h1>
+    <hr>
+    <h1>Projetos: </h1>
+    <hr>
     <h1 class="titulo"><mark>Python:</mark></h1>
     <hr>
     <a href="https://github.com/aslarthur/Python/blob/main/Estudo%20Solo/programas%20solo/programa1.py">1. Minigame (eu acho)</a>
@@ -95,7 +114,6 @@
     <h1 class = "titulo"><mark>JavaScript: </mark></h1>
     <hr>
     <a href="https://github.com/aslarthur/JavaScript/blob/main/main.js">1. Comparação de números (unico que tenho em javascript)</a>
-    <hr>
     <hr>
     <h1>Conheça meu <u>GitHub</u>:</h1>
     <hr>
