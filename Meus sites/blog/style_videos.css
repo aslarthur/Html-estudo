@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body{
+    background-color: #333333;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-family: Arial;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 1.5em;
+}
+a:hover{
+    text-decoration: underline;
+}
