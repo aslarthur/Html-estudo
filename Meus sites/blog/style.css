@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+a{
+    display: inline-block;
+    background: #333333;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+a:hover{
+    transform: scale(1.06);
+    background: #555555;
+}
+.titulo{
+    font-size: 43px;
+    font-weight: bold;
+}
+.card-image{
+    width: 100%;
+    height: 500px;
+    object-fit: fill;
+    display: block;
+}
+.subtitulo{
+    font-size: 33px;
+    font-weight: bold;
+}
+.card-video{
+    border-radius: 10px;            
+    display: block;
+    margin: auto;
+}
+mark{
+    background-color: darkgray;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+hr{
+    border: none;
+    height: 3px;
+    background-color: gray;
+}
+pre{
+    text-align: left;
+    display: inline-block;
+    background-color: white;
+    font-size: 20px;
+}
+audio{
+    background-color: #333333;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 33px;
+}
+abbr{
+    text-decoration: none;
+}
+.mark{
+    font-weight: bold;
+}
+.border{
+    border: 4px solid gray;
+}
