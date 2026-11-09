@@ -1,0 +1,84 @@
+@charset "UTF-8";
+body{
+    background-color: #895129;
+    text-align: center;
+}
+.img{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    border: 2px solid #ffeed9;
+    box-shadow: 3px 3px 3px #ad5210;
+}
+.titulo{
+    font-family: Helvetica, sans-serif;
+    color: #FFEED9;
+    font-size: 50px;
+}
+
+.subtitulo{
+    font-family: Helvetica, sans-serif;
+    color: #FAEED9;
+    font-size: 40px;
+}
+.terceiro_titulo{
+    font-family: Helvetica, sans-serif;
+    color: #FAEED9;
+    font-size: 30px;
+}
+.botao{
+    text-decoration: none;
+    color: #faeed9;
+}
+.botao:hover{
+    background-color: #964b00;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ffeed9;
+    box-shadow: 1px 1px 1px #ad5210;
+}
+.dourado{
+    color: #faeed9;
+}
+.dourado:hover{
+    color: goldenrod;
+}
+.voltar{
+    transition: 0.5s;
+}
+.voltar:hover img{
+    transform: scale(1.05);
+}
+.linha{
+    width: 100%;
+    max-width: 600px;
+    border: none;
+    height: 2.7px;
+    background-color: #ffeed9;
+}
+.secao{
+    background-color: #ffeed9; 
+    border-radius: 15px; 
+    padding: 10px; 
+    color: #ad5210;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    transition: 0.5s;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 10px;
+}
+.secao:hover{
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+.linha2{
+    border: none;
+    height: 3px;
+    background-color: #ffeed9; 
+    width: 100%;
+    max-width: 700px;
+}
+p{
+    color: #ffeed9;
+}
