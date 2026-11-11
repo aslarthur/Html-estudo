@@ -1,0 +1,62 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right, white 40%, black);
+    background-attachment: fixed;
+    text-align: center;
+}
+.titulo_hr{
+    border: none;
+    height: 2px;
+    background-image: linear-gradient(to right, black, white 40%);
+    width: 100%;
+    max-width: 400px;
+}
+.titulo_apresentação{
+    border: none;
+    height: 2px;
+    background-image: linear-gradient(to right, gray, white);
+    width: 100%;
+    max-width: 500px;
+    font-family: Arial, Helvetica, serif
+}
+.decoracao{
+    margin-bottom: 0;
+    font-size: 2.5em;
+    color: white;
+    background-image: linear-gradient(to right, black 20%, white );
+    color: transparent;
+    background-clip: text;
+    width: 100%;
+
+}
+.informacoes{
+    border: none;
+    height: 2px;
+    background-image: linear-gradient(to right, black, white 40%);
+    width: 100%;
+    max-width: 650px;
+}
+img{
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px black;
+    width: 100%;
+    max-width: 500px;
+}
+div{
+    background-image: linear-gradient(to right, darkgray, white);
+    color: #000;
+    display: inline-block;
+    width: 500px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 600px;
+}
+li{
+    margin-bottom: 12px;
+}
+ul{
+    list-style-type: circle;
+    text-align: left;
+    font-family: Arial, Helvetica, serif;
+}

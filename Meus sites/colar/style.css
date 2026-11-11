@@ -1,7 +1,12 @@
 @charset "UTF-8";
 body{
-    background-color: #895129;
+    background-image: linear-gradient(to bottom,  #ad530d, #84420b, #612e08);
+    background-attachment: fixed;
     text-align: center;
+    font-family: sans-serif;
+}
+html {
+  scroll-behavior: smooth;
 }
 .img{
     width: 100%;
