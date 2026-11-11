@@ -1,13 +1,13 @@
 @charset "UTF-8";
 body{
-    background-image: linear-gradient(to right, white 40%, black);
+    background-image: linear-gradient(to right, red, white);
     background-attachment: fixed;
     text-align: center;
 }
 .titulo_hr{
     border: none;
     height: 2px;
-    background-image: linear-gradient(to right, black, white 40%);
+    background-image: linear-gradient(to right, white, red 40%);
     width: 100%;
     max-width: 400px;
 }
@@ -17,33 +17,45 @@ body{
     background-image: linear-gradient(to right, gray, white);
     width: 100%;
     max-width: 500px;
-    font-family: Arial, Helvetica, serif
+    font-family: Arial, Helvetica, serif;
 }
 .decoracao{
     margin-bottom: 0;
     font-size: 2.5em;
     color: white;
-    background-image: linear-gradient(to right, black 20%, white );
+    background-image: linear-gradient(to right, white, rgb(131, 0, 0) );
     color: transparent;
     background-clip: text;
     width: 100%;
-
+    font-family: 'Momo Trust Display', Arial, Helvetica, sans-serif;
+}
+.nome{
+    margin-bottom: 0;
+    font-size: 4.5em;
+    color: white;
+    background-image: linear-gradient(to right, black 20%, red );
+    color: transparent;
+    background-clip: text;
+    width: 100%;
+    font-family: 'Caveat', Arial, Helvetica, sans-serif;
+    font-weight: 900;
 }
 .informacoes{
     border: none;
     height: 2px;
-    background-image: linear-gradient(to right, black, white 40%);
+    background-image: linear-gradient(to right, white, red);
     width: 100%;
     max-width: 650px;
 }
-img{
+.img_principal{
     border-radius: 15px;
-    box-shadow: 2px 3px 5px black;
+    border: 2px solid white;
+    box-shadow: 0px 6px 10px black;
     width: 100%;
     max-width: 500px;
 }
 div{
-    background-image: linear-gradient(to right, darkgray, white);
+    background-image: linear-gradient(to right, white, red);
     color: #000;
     display: inline-block;
     width: 500px;
@@ -60,3 +72,12 @@ ul{
     text-align: left;
     font-family: Arial, Helvetica, serif;
 }
+a{
+    display: inline-block;
+}
+a:hover{
+    transform: scale(1.05);
+}
+
+
+

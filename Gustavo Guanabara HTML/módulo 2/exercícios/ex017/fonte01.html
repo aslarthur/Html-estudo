@@ -7,10 +7,32 @@
         <style>
             body{
                 font-family: Arial, Helvetica, sans-serif;
-            }
-            h1, h2{
-                font-family: 'Times New Roman', Times, serif
-            }
+                /*
+                Medidas Absolutas
+                cm, mm, in, px, pt, pc
+
+                Medidas Relativas
+                em, ex, rem, vw, vh, %
+                16px geralmente = 1em
+                */
+
+                font-size: 1em;
+            } 
+            h1{
+
+                /* shorthand font
+
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: bolder;
+                font-size: 3em;
+                font-style: italic;
+
+                -font-style -> font-weight -> font-size -> font-family*/
+                font: italic bolder 3em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            } 
+            h2{
+                font: bold 2em 'Arial Narrow', Arial, sans-serif;
+            }          
         </style>
     </head>
     <body>
