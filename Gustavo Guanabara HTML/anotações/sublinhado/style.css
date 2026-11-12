@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right, #333138, #C1BCD6);
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    display: inline-block;
+}
+a:hover{
+    transform: scale(1.05);
+}
+.titulo{
+    background-image: linear-gradient(to right, white 10%, #706886, #585561);
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+}
+.sub{
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline white 2px;
+}
+.div{
+    background-image: linear-gradient(to bottom, #706886, #585561);
+    width: 100%;
+    max-width: 450px;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+}
+.div1{
+    background-image: linear-gradient(to right, white,lightgray, darkgray);
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    border: 2px solid gray;
+    outline: 1px solid white;
+    box-shadow: 2px 2px 3px #333138;
+    width: 100%;
+    max-width: 500px;
+}
+.div > .span1{
+    text-decoration: underline dotted white 1px;
+}
+.div > .span2{
+    text-decoration: underline dashed white 1px;
+}
+.div > .span3{
+    text-decoration: underline double white 1px;
+}
+.div > .span4{
+    text-decoration: underline white 1px; 
+}
+.div > .span5{
+    text-decoration: underline wavy 1px;
+}
+.div > code{
+    color: white;
+}
+.linha{
+    border: none;
+    height: 2px;
+    background-image: linear-gradient(to right, purple, rgb(243, 5, 243))
+}

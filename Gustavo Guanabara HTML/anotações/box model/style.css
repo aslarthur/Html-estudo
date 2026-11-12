@@ -1,0 +1,52 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to left,#238C32,  #285930);
+    text-align: center;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+h2{
+    color: white;
+    font-weight: bolder;
+}
+div.div{
+    background-image: linear-gradient(to bottom, #63AD6A, #4EBA54);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+    border: 2px solid #347c38;
+    outline: 2px solid darkgray;
+    width: 100%;
+    max-width: 450px;
+
+}
+div > span{
+    font-size: 20px;
+}
+.titulo{
+    background-image: linear-gradient(to top, #A4FC97,  #A7C9A1);
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+}
+div.principal{
+    background-image: linear-gradient(to right, #85FF85, #3B8C20);
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 500px;
+    display: inline-block;
+    border: 2px solid gray;
+    outline: 1px solid white
+}
+.linha{
+    border: none;
+    height: 2px; 
+    background-image: linear-gradient(to right, white, green);
+    width: 100%;
+    max-width: 500px;
+}
