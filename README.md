@@ -29,6 +29,6 @@ Continuar praticando, criar minhas próprias páginas e acompanhar minha evoluç
 
 <div align="center">
 
-Feito com 🧡, curiosidade e HTML.
+Feito com chatgpt, curiosidade e HTML.
 
 </div>
