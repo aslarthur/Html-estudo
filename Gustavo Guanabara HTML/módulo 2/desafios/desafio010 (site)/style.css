@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/*FONTES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Londrina+Solid:wght@100;300;400;900&family=Momo+Trust+Display&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face{
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format(opentype);
+}  
+
+/*ESPECIFICAÇÕES*/
+
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+    text-align: center;
+}
+header{
+    background-image: linear-gradient(to bottom, #3CD983, #1A5B38);
+    padding: 10px;
+}
+header > p{
+    color: white;
+    margin: 5px;
+    text-align: center;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+div{
+    background-color: white;
+    display: inline-block;
+    width: 700px;
+}
+
+div > p{
+    text-indent: 32px;
+}
+div > .principal{
+    width: 560px;
+}
+picture > .principal{
+    width: 100%;
+    max-width: 690px;
+   
+}
+.alinhado1{
+    display: block;
+    margin-left: -520px;
+    text-indent: 32px;
+}
+.alinhado1 > li::before{
+    content: "\2714";
+    color: green;
+    margin: 5px;
+}
+.fonte_android{
+    font-family: 'Android', Arial, Helvetica, sans-serif;
+    color: green;
+
+}
+.video{
+    background-color: #1A5C38;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.fonte_android_fundo{
+    font-family: 'Android', Arial, helvetica, sans-serif;
+    color: green;
+        text-align: left;
+    background-image: linear-gradient(to right, #DCF3E6, #FBFEFD)
+}
+.fonte_principal{
+    font-family: 'Londrina Solid', Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+}
+.versão1{
+    width:500px;
+}
+.conteudo{
+    background-color: #C5EBD6;
+    margin-top: 20px;
+    width: 650px;
+    border-radius: 10px;
+}
+.conteudo > header{
+    background-color: green;
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+}      
