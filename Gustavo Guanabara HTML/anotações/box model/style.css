@@ -50,3 +50,12 @@ div.principal{
     width: 100%;
     max-width: 500px;
 }
+.ir{
+    width: 100%;
+    max-width: 200px;
+}
+.tipos{
+    color: white; 
+    font-weight: bolder; 
+    text-decoration: underline white 1px;
+}

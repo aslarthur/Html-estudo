@@ -66,3 +66,7 @@ a:hover{
     height: 2px;
     background-image: linear-gradient(to right, purple, rgb(243, 5, 243))
 }
+.voltar{ 
+    width: 100%; 
+    max-width: 200px;
+}
