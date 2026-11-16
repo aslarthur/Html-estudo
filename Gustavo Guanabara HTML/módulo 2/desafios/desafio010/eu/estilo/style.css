@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=BBH+Bogle&family=Bebas+Neue&family=Caveat:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Londrina+Solid:wght@100;300;400;900&family=Momo+Trust+Display&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
   --cor1: #F0FAF7;
   --cor2: #D4F2E8;
@@ -14,8 +16,12 @@
     src: url(../fontes/idroid.otf) format(opentype);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header{
-    background-image: linear-gradient(to top, var(--cor3), var(--cor6));
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor6));
     margin: -10px;
     padding: 20px;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.397);
@@ -24,10 +30,20 @@ header > h1{
     color: white;
     text-align: justify;
     font-size: 2em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bolder;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 900;
     display: block;
     text-align: center;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.298);
+    margin-bottom: 0px;
+}
+header > .linha{
+    border: none;
+    height: 2px;
+    background-color: white;
+    margin: none;
+    width: 100%;
+    max-width: 500px;
 }
 header > h2{
     color: white;
@@ -48,12 +64,13 @@ nav > a{
     padding: 10px;
     transition-duration: 0.3s;
     text-decoration: none;
-    color: var(--cor6);
+    color: var(--cor3);
     font-size: 1.1em;
 
 }
 nav > a:hover{
     background-color: var(--cor4);
+    color: var(--cor6);
 }
 
 body{
@@ -68,6 +85,7 @@ main{
     text-align: 100%;
     border-radius: 0px 0px 10px 10px;
     line-height: 1.5em;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.397);
 }
 
 main > h1{
@@ -137,7 +155,8 @@ main a::after{
 
 main strong{
     color: var(--cor6);
-    font-weight: bold;
+    font-weight: bolder;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.200);
 }
 
 
@@ -158,6 +177,9 @@ div.video > iframe{
     height: 80%;
 }
 
+aside{
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.226)
+}
 
 aside > ul{
     columns: 2;
