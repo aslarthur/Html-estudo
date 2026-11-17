@@ -2,20 +2,17 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="wodth=edvice-width, initial-scale=1.0">
-        <title>Posicionamento </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>fundo fixo de tela </title>
         <style>
             body{
-                height: 100vh;
-                background-color: black;
-                background-image: url("imagens/wallpaper002.jpg");
-                background-position: center center;
-                background-repeat: repeat-y;
-                background-size: cover;
+                /*Shorthand - background
+                    color > image > position > repeat > [size] attachment*/
+                background: black url("imagens/pattern004.png")  center center no-repeat  / cover fixed
             }
             main{
                 background-color: white;
-                width: 400px;
+                max-width: 400px;
                 padding: 10px;
                 margin: auto;
                 border: 1px solid black;
