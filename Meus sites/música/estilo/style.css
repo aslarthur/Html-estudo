@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+body{
+    background-color: #f5f4fb;
+}
+
+header{
+    background-color: #266da8;
+    width: 98vw;
+    padding: 20px;
+    margin: -10px -10px 10px -10px;
+    text-align: center;
+}
+
+header > h1{
+    font: bolder 2.5em Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header > p{
+    font: lighter 20px Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav{
+    display: inline-flex;
+    background-color: #266ea8a6;
+    margin: -10px -10px 10px -10px;
+    width: 98vw;
+    padding: 10px 30px 10px 10px;
+    justify-content: space-around;
+}
+
+nav > a{
+    font: lighter 20px Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+
+div.card1{
+    display: block;
+    text-align: center;
+    margin: 40px auto 40px auto;
+    width: 600px;
+    height: 120px;
+    background-color: #2f00ff11;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.164);
+    border-left: 5px solid #266ea8a6;
+}
+
+div.card1 > h3{
+    font: bolder 2.5em Arial, Helvetica, sans-serif;
+    color: #266da8;
+    margin: 0px;
+}
+
+div.card2{
+    display: block;
+    text-align: center;
+    margin: 40px auto 40px auto;
+    width: 600px;
+    height: 120px;
+    background-color: #2f00ff11;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.164);
+}
+
+div.card2 > h3{
+    font: bolder 2.5em Arial, Helvetica, sans-serif;
+    color: #266da8;
+    margin: 0px;
+}
+
+div.card2 > ul{
+    text-align: left;
+    margin: 5px auto 5px auto;
+}
+
+div.card3{
+    display: block;
+    text-align: center;
+    margin: 40px auto 40px auto;
+    width: 600px;
+    height: 120px;
+    background-color: #2f00ff11;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.164);
+}
+
+div.card3 > h3{
+    font: bolder 2.5em Arial, Helvetica, sans-serif;
+    color: #266da8;
+    margin: 0px;
+}
+
+div.card3 > ol{
+    text-align: left;
+}
+
+p.final{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.589);
+}
