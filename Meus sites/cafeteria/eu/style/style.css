@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+/*HEADER*/
+header{
+    background-color: #6B4226;
+    padding: 20px;
+}
+header > h1{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+header > nav{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 100px;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}    
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}    
+
+header > nav > a:hover{
+    text-decoration: underline;
+}    
+  
+/*body/main*/
+body{
+    margin: 0px;
+    background-color: #FFF8EE;
+}
+
+main > div.card1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto 20px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+main > div.card > h1{
+    color: #382719;
+}
+
+main > div.card > p{
+    color: #382719;
+    text-align: right;
+}
+
+main > div > img{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 750px;
+}
+
+main > div.card2{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto 20px auto;
+    
+    width: 100%;
+    max-width: 800px;
+}
+
+main > div.card2 > h2{
+    color: #382719;
+    text-align: center;
+}
+
+main > div.card2 > p{
+    color: #382719;
+    text-align: left;
+}
+
+main > div.card3{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto 20px auto;
+    
+    width: 100%;
+    max-width: 800px;
+}
+
+main > div.card3 > h2{
+    color: #382719;
+    text-align: center;
+}
+
+main > div.card3 > p{
+    color: #382719;
+    text-align: left;
+}
+
+
+/* configurando listas não ordenadas*/
+li{
+    margin: 10px;
+}
+/*footer*/
+
+footer{
+    background-color: #6B4226;
+    padding: 20px;
+}
+footer > p{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
