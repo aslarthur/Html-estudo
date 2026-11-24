@@ -9,13 +9,16 @@
   <body>  
     <div>
       <h1>Formulário</h1>
-      <form>
-        <input type="text" placeholder="Digite seu nome" required>
-        <input type="email" placeholder="Digite seu melhor email" required>
-        <input type="password" placeholder="Senha" required>
-        <textarea placeholder="Faça seu comentário"></textarea>
-        <button type="submit"><h3>Enviar</h3></button>
+      <form method="get" >
+        <label for="inome">Nome: </label>
+        <input type="text" placeholder="Digite seu nome" name="nome"  id="inome" required>
+        <label for="iemail">Email: </label>
+        <input type="email" placeholder="Digite seu melhor email" name="email" id="iemail" required>
+        <label for="icomentario">Comentário: </label>
+        <textarea placeholder="Faça seu comentário" name="comentario" id="icomentario"></textarea>
+        <button type="submit" ><h3>Enviar</h3></button>
       </form>
     </div>
+    
   </body>
 </html>

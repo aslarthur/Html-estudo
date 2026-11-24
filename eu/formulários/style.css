@@ -7,7 +7,7 @@ body{
 
 div{
     position: absolute;
-    background-color: #1E1E1E;
+    background-image: linear-gradient(to right, #1E1E1E, rgb(54, 54, 54));
     padding: 10px;
     width: 100%;
     max-width: 600px;
@@ -26,7 +26,27 @@ div > h1{
 
 }
 
-div > form > input, textarea{
+div > form > label{
+    margin: 10px 10px 10px 10px;
+    color: rgba(255, 255, 255, 0.733);
+    display: block;
+    text-align: center;
+}
+
+div > form > input{
+    display: block;
+    margin: 20px 10px 20px 10px;
+    width: 100%;
+    max-width: 90%;
+    background-color: #181818;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+div > form > textarea{
     display: block;
     margin: 40px 10px 40px 10px;
     width: 100%;
@@ -37,7 +57,6 @@ div > form > input, textarea{
     border-radius: 10px;
     color: white;
 }
-
 div > form > input:focus{
     outline: 2px solid #101010;
 }
@@ -71,3 +90,6 @@ div > form > button{
     outline: 2px solid #101010;
 }
 
+div > form > button:hover{
+    background-color: #460079;
+}
