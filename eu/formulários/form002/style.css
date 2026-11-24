@@ -26,6 +26,7 @@ div{
     border-radius: 10px;
     background-color: 2px 2px 7px rgba(0, 0, 0, 0.459);
     scale: 1.2;
+    border: 1px solid var(--cor2);
 }
 
 div > h1{
