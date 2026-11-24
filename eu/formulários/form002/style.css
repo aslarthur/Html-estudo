@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --cor1: #162133;
+    --cor2: #404D63;
+    --cor3: #7E8896;
+    --cor4: #99ACC9;
+    --cor5: #8EB9FC;
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--cor4);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: 2px 2px 7px rgba(0, 0, 0, 0.459);
+    scale: 1.2;
+}
+
+div > h1{
+    color: white;
+    text-align: center;
+    background-color: var(--cor2);
+    margin: -20px -20px 10px -20px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.329);
+}
+
+div > form > label{
+    display: block;
+    text-align: center;
+    color: var(--cor1);
+    font-weight: bold;
+    margin: 20px 10px 0px 10px;
+}
+
+div > form > hr{
+    border: none;
+    height: 2px;
+    background-color: #162133;
+    width: 70px;
+    margin: 0px 10px 10px 10px;
+    margin: auto;
+}
+
+div > form > input{
+    display: block;
+    margin: 10px auto 10px auto;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: none;
+    outline: 0px;
+    border: 0px;
+}
+
+div > form > input:focus{
+    outline: 1px solid var(--cor1);
+}
+
+div > form > input:user-invalid{
+    outline: 1px solid red;
+}
+
+div > form > button{
+    display: block;
+    margin: 20px auto 20px auto;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: none;
+    outline: 0px;
+    border: 0px;
+    background-color: var(--cor2);
+    color: var(--cor5);
+}
+
+div > form > button:hover{
+    background-color: var(--cor3);
+}
