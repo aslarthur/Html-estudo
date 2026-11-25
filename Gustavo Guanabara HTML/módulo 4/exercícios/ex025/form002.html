@@ -7,14 +7,14 @@
     </head>
     <body>
         <h1>Teste de formulário</h1>
-        <form action="cadastro.php" method="post">
+        <form action="cadastro.php" method="post" autocomplete="on">
             <p>
                 <label for="iusuario">Usuário: </label>
-                <input type="text" name="usuario" id="iusuario" required>
+                <input type="text" name="usuario" id="iusuario" required minlength="5" maxlength="15" size="10" placeholder="nome do usuário" autocomplete="username">
             </p>
             <p>
                 <label for="isenha">Senha: </label>
-                <input type="password" name="senha" id="isenha" required>
+                <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" size="8" placeholder="minímo 8 letras" autocomplete="current-password">
             </p>
             <p>
                 <input type="submit" value="Enviar">
