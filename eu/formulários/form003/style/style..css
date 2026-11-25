@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+:root{
+    --cor1: #0B132B; /* fundo da página */
+    --cor2: #1C2541; /* fundo do formulário */
+    --cor3: #3A506B; /* cabeçalho */
+    --cor4: #C5D3E0; /* interior dos campos */
+    --cor5: #5BC0BE; /* botão Enviar */
+}
+
+body{
+    background-color: var(--cor1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.principal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--cor3);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+div.principal > h1{
+    background-color: var(--cor4);
+    margin: -20px -20px 20px -20px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    color: var(--cor1);
+    font-weight: bolder;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+div.principal hr{
+    width: 180px;
+    border: none;
+    height: 3px;
+    background-color: #0B132B;
+    margin: -28px auto 20px auto;
+}
+
+div.principal label{
+    display: block;
+    margin: 5px 0px 5px 0px;
+    color: var(--cor1);
+    font-weight: bolder;
+}
+
+div.principal input{
+    border-radius: 5px;
+    width: 100%;
+    max-width: 250px;
+    border: none;
+    outline:none;
+    height: 20px;
+    padding: 8px;
+    margin: 3px 0px 10px 0px;
+}
+
+div.principal input:focus{
+    outline: 2px solid var(--cor1)
+}
+
+div.principal input:user-invalid{
+    outline:2px solid rgb(255, 81, 0);
+}
+
+div.principal button{
+    display: block;
+    padding: 12px;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+    border: none;
+    outline: 2px solid var(--cor1);
+    font-weight: bolder;
+    color: var(--cor1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.principal button:hover{
+    background-color: var(--cor4);
+}
+
+div.principal > div.login > a{
+    text-decoration: none;
+    color: var(--cor5);
+    margin: 0px 0px 10px 0px;
+}
+
+div.principal > div.login > hr{
+    width: 200px;
+    border: none;
+    height: 3px;
+    background-color: #0B132B;
+    margin: 0px 0px 10px 0px;
+}
