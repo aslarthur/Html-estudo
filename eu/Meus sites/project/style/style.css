@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=BBH+Bogle&family=Bebas+Neue&family=Caveat:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Londrina+Solid:wght@100;300;400;900&family=Momo+Trust+Display&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=BBH+Bogle&family=Bebas+Neue&family=Caveat:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Londrina+Solid:wght@100;300;400;900&family=Momo+Trust+Display&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --cor1: #72EB67;
+    --cor2: #5EC255;
+    --cor3: #4A9943;
+    --cor4: #377031;
+    --cor5: #20421D;
+    --cor6: #EBE5C5;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor5));
+    padding: 50px;
+}
+
+header > h1{
+    color: white;
+    font-family: "BBH Bogle", sans-serif;
+    text-align: center;
+    margin: 10px;
+    font-weight: 100;
+    font-size: 2.3em;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+    margin: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3em;
+}
+
+nav{
+    background-color: var(--cor5);
+    padding-bottom: 10px;
+}
+
+nav > a{
+    display: inline-flex;
+    margin: 10px 5px 10px 5px;
+    color: #83E1AD;
+    text-decoration: none;
+}
+
