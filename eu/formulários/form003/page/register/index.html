@@ -10,11 +10,15 @@
     <body>
         <div class="principal">
             <h1>Cadastro</h1>
-            <hr>
+            <hr class="top">
             <form method="post" autocomplete="on">
                 <div>
                     <label for="inome">Nome</label>
-                    <input type="text" name="nome" id="inome" placeholder="Digite seu nome completo" minlength="5" required>
+                    <input type="text" name="nome" id="inome" placeholder="Digite seu nome completo" required>
+                </div>
+                <div>
+                    <label for="idata">Data de nascimento</label>
+                    <input type="date" name="data" id="idada" placeholder="Digite a data que você nasceu" required>
                 </div>
                 <div>
                     <label for="iemail">Email</label>
@@ -24,14 +28,10 @@
                     <label for="isenha">Senha</label>
                     <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" minlength="5" required>
                 </div>
-                <div>
-                    <label for="idata">Data de nascimento</label>
-                    <input type="date" name="data" id="idata" min="1940-01-01" max="2025-01-01" required>
-                </div>
                 <button type="submit">Enviar</button>
             </form>
-            <div class="login">
-                <a href="../login/index.html">Já tenho uma conta</a>
+            <div class="fundo">
+                <a href="../auth/index.html">Já tenho uma conta</a>
                 <hr>
             </div>
         </div>
